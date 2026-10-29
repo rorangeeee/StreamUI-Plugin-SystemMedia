@@ -1,0 +1,18 @@
+{
+  "id": "system-media",
+  "name": "系统播放曲目",
+  "version": "1.0.1",
+  "assembly": "SystemMedia.dll",
+  "type": "StreamUI.SystemMedia.SystemMediaPlugin",
+  "capabilities": [
+    "media.now-playing"
+  ],
+  "settingsPage": "",
+  "sdkVersion": 1,
+  "repository": "https://github.com/rorangeeee/StreamUI-Plugin-SystemMedia",
+  "build": {
+    "kind": "dotnet",
+    "project": "SystemMedia.csproj",
+    "sdkVersion": 1
+  }
+}
