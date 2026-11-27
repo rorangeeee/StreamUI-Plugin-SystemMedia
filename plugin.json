@@ -1,13 +1,17 @@
 {
-  "id": "system-media",
+  "id": "when.system-media",
+  "legacyId": "system-media",
+  "author": "when",
   "name": "系统播放曲目",
-  "version": "1.0.2",
+  "version": "2.0.0",
+  "license": "MIT",
   "assembly": "SystemMedia.dll",
   "type": "StreamUI.SystemMedia.SystemMediaPlugin",
   "capabilities": [
     "media.now-playing"
   ],
   "settingsPage": "",
+  "files": ["MediaSession.ps1"],
   "sdkVersion": 1,
   "repository": "https://github.com/rorangeeee/StreamUI-Plugin-SystemMedia",
   "build": {

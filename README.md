@@ -2,7 +2,7 @@
 
 Independent source plugin for [StreamUICore](https://github.com/rorangeeee/StreamUICore). Requires Windows x64, .NET 10 SDK and StreamUI Contracts SDK major 1.
 
-Clone this repository to '<Core>/plugins/system-media'. Build Core first, then run:
+Clone this repository to '<Core>/plugins/when.system-media' (or '<Core>/plugins/system-media' for local development). Build Core first, then run:
 
 ~~~powershell
 powershell.exe -NoProfile -File build.ps1 -SdkPath '<Core>/sdk/native'
